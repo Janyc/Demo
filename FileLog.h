@@ -20,7 +20,6 @@ private:
 	CRITICAL_SECTION m_csCS;
 
 	//更改为C++ ofstream操作文件输出方式，解决当前日志文件无法打开问题
-	//jiangyongcong 20131213
 	std::ofstream m_foutCommFile;
 	std::ofstream m_foutWarnFile;
 	std::ofstream m_foutErrFile;
