@@ -37,7 +37,7 @@ private:
 	CONTEXT          m_context; // CPU dependent exception information
 };
 
-//×ª»»³ö´íÎóĞÅÏ¢
+//è½¬æ¢æˆé”™è¯¯æç¤ºä¿¡æ¯
 std::string GetErrorInfo(const char *_pMoifyTime, const char *_pFileName, DWORD _dwLine, const char *_pFuncName, CSE se)
 {
     char	v_szExpInfo[3000]= {0};
